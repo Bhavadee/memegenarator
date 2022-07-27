@@ -17,12 +17,12 @@ function Main() {
  
     return (
         <main className='main'>
-            <form className="form1">
+            <div className="form1">
                 
                 <input className="form-input" placeholder='toptext' type = "text" />
                 <input className="form-input"  placeholder='bottomtext' type = "text" />
                 <button className="form-button"  onClick={getMemeImage} > Get a new meme image 🖼</button>
-            </form>
+            </div>
         
             <img src={memeImage} className="meme--image" alt = "bhavadeep"/>
         </main>
